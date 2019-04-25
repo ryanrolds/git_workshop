@@ -1,6 +1,6 @@
 # Git, README, and Docker Workshop
 
-This repo contains is part of a educational workshop to help Hack for a Cause participants familiarize themselves with key project files, Git, and Docker.
+This repo is part of a educational workshop to help Hack for a Cause participants familiarize themselves with key project files, Git, and Docker.
 
 ## Running
 
