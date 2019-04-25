@@ -147,12 +147,12 @@ Visit http://localhost:8080 in your browser, where you should find these slides.
 
 # Create a branch in your repo
 
-Creating branches is how you ensure your work is isolated and doesn't get deployed accidentally.
+Creating branches is how you ensure your work is isolated and doesn't get deployed accidentally. 
 
 ``` bash
-$ git branch add_myself
-$ git checkout add_myself
-Switched to branch 'add_myself'
+$ git branch add_ryanolds
+$ git checkout add_ryanolds
+Switched to branch 'add_ryanolds'
 ```
 
 ---
@@ -163,6 +163,13 @@ Using your preferred editor, add your name to the end of `README.md`.
 
 ``` bash
 $ tail README.md
+8. Get the Pull Request (PR) merged
+9. Checkout `master` branch
+10. Pull latest changes to master
+
+## Contributors
+
+* Ryan Olds
 ```
 
 ---
@@ -173,45 +180,53 @@ Outputs status of repo
 
 ``` bash
 $ git status
+On branch add_ryanolds
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   slides.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 ---
 
-# Git Add
+# Git Add & Commit
 
 Add your modifiction to the next commit.
 
 ``` bash
 $ git add README.md
-```
-
----
-
-# Git Commit
-
-``` bash
 $ git commit -m "Adding myself"
-```
-
-Shortcut: Skip add step if file isn't new
-
-``` bash
-$ git commit -m "Adding myself" README.md
+[add_ryanolds 06053a1] Adding myself
+ 1 file changed, 24 insertions(+), 1 deletion(-)
+ rewrite README.md (100%)
 ```
 
 ---
 
 # Push
 
+Once your changes are commited, push them to your fork:
+
 ``` bash
 $ git push
+...
+...
+...
+Branch 'add_ryanolds' set up to track remote branch 'add_ryanolds' from 'origin'.
 ```
+
+> Pay attention to the output of this command do what it asks.
 
 ---
 
-# Submit PR
+# Submit Pull Request and Pull
 
-Visit your fork of the repo and create a PR.
+Visit your fork on GitHub and create a PR. After you're PR is merged, checkout `master` and pull your and everyone elses changes:
+
+
 
 ---
 
@@ -221,13 +236,5 @@ Ready?
 
 ---
 
-# Tasks
-
-* Fork https://github.com/ryanrolds/starting_project_workshop
-* Checkout your fork
-* Run and view the service with Docker & Docker Compose
-* Create a branch
-* Add your name to end of README
-* Commit and push your change
-* Create Pull Request to merge your branch to my (root) repo
+Go to `https://github.com/ryanrolds/starting_projects_workshop` and perform the steps under `Tasks`.
 
