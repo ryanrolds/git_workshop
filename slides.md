@@ -95,7 +95,7 @@ Requires creating `Dockerfile` and `docker-compose.yaml`. See this files in this
 
 We are going to:
 
-* Fork the [Starting Projects Workshop repo](https://github.com/ryanrolds/starting_project_workshop)
+* Fork the [workshop repo on GitHub](https://github.com/ryanrolds/git_workshop)
 * Checkout the fork
 * Run the service with Docker & Docker Compose
 * Create a branch
@@ -107,7 +107,7 @@ We are going to:
 
 # Fork Workshop Repo
 
-Create a GitHub account if you don't already have one. Visit the [workshops repo on GitHub](https://github.com/ryanrolds/starting_project_workshop) and forfork the project.
+Create a GitHub account if you don't already have one. Visit the [workshop repo](https://github.com/ryanrolds/git_workshop) and forfork the project.
 
 ---
 
@@ -116,14 +116,14 @@ Create a GitHub account if you don't already have one. Visit the [workshops repo
 Open your command line (Git Bash on Windows). Creates a local copy of your fork.
 
 ``` bash
-$ git clone https://github.com/<your username>/starting_project_workshop.git
-Cloning into 'starting_project_workshop'...
+$ git clone https://github.com/<your username>/git_workshop.git
+Cloning into 'git_workshop'...
 remote: Enumerating objects: 4, done.
 remote: Counting objects: 100% (4/4), done.
 remote: Compressing objects: 100% (3/3), done.
 remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (4/4), done.
-$ cd starting_project_workshop
+$ cd git_workshop
 ```
 
 ---
@@ -218,15 +218,27 @@ $ git push
 Branch 'add_ryanolds' set up to track remote branch 'add_ryanolds' from 'origin'.
 ```
 
-> Pay attention to the output of this command do what it asks.
+> Pay attention to the output of this command.
 
 ---
 
 # Submit Pull Request and Pull
 
-Visit your fork on GitHub and create a PR. After you're PR is merged, checkout `master` and pull your and everyone elses changes:
+Visit your fork on GitHub and create a PR. After your PR is merged, checkout `master` and pull the upstream changes:
 
-
+``` bash
+$ git checkout master
+$ git fetch upstream
+$ git merge upstream/master
+...
+From github.com:ryanrolds/git_workshop
+   a41337a..f3d2c97  master     -> origin/master
+ * [new branch]      add_myself -> origin/add_myself
+Updating a41337a..f3d2c97
+Fast-forward
+ README.md | 25 ++++++++++++++++++++++++-
+ 1 file changed, 24 insertions(+), 1 deletion(-)
+```
 
 ---
 
@@ -236,5 +248,8 @@ Ready?
 
 ---
 
-Go to `https://github.com/ryanrolds/starting_projects_workshop` and perform the steps under `Tasks`.
+# It's your turn
+
+1. Go to https://github.com/ryanrolds/git_workshop
+2. Perform the tasks in `README.md`.
 
