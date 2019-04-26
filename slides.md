@@ -226,19 +226,14 @@ Branch 'add_ryanolds' set up to track remote branch 'add_ryanolds' from 'origin'
 
 # Submit Pull Request and Pull
 
-Visit your fork on GitHub and create a PR. After your PR is merged, checkout `master` and merge the upstream changes:
+Visit your fork on GitHub and create a PR against my repo. After your PR is merged, checkout your `master` branch, add my repo as your upstream remote, and merge the upstream changes:
 
 ``` bash
 $ git checkout master
+$ git remote add upstream https://github.com/ryanrolds/compose.git
 $ git fetch upstream
 $ git merge upstream/master
 ...
-From github.com:ryanrolds/git_workshop
-   a41337a..f3d2c97  master     -> origin/master
- * [new branch]      add_myself -> origin/add_myself
-Updating a41337a..f3d2c97
-Fast-forward
- README.md | 25 ++++++++++++++++++++++++-
  1 file changed, 24 insertions(+), 1 deletion(-)
 ```
 
@@ -254,4 +249,6 @@ Ready?
 
 1. Go to https://github.com/ryanrolds/git_workshop
 2. Perform the tasks in `README.md`.
+3. Done! Enjoy the Hack
+4. After the Hack, learn more: https://backlog.com/git-tutorial/
 

@@ -24,6 +24,7 @@ All of the commands required to perform these steps are in the slides.
 8. Get your Pull Request (PR) merged
 9. Checkout `master` branch
 10. Pull latest changes to master
+11. Done!
 
 ## Contributors
 
