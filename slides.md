@@ -39,7 +39,7 @@ Challenges
 
 ---
 
-# REAMDE.md and LICENSE
+# README.md and LICENSE
 
 `README.md` is the defacto standard file for important project information. `LICENSE` is the where people expect to find the license in OSS projects. Larger projects also have a `CONTRIBUTING.md` file.
 
