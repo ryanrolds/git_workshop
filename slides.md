@@ -129,7 +129,7 @@ $ cd git_workshop
 
 ---
 
-<img src="/images/starting_projects_github.png"/>
+<img src="images/starting_projects_github.png"/>
 
 ---
 
