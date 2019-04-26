@@ -84,7 +84,7 @@ GitHub is a Git repository hosting platform that provides a web interface for ma
 
 # Docker
 
-Most projects have dependencies that must be setup when on-boarding contributors. Containerization tools, like Docker, and container oristration tools, like Docker Compose, allow projects to define their environment with code (Infrastructure as Code). 
+Most projects have dependencies that must be setup when on-boarding contributors. Containerization tools, like Docker, and container orchestration tools, like Docker Compose, allow projects to define their environment with code (Infrastructure as Code). 
 
 Requires creating `Dockerfile` and `docker-compose.yaml`. See this repository's for a basic example.
 
