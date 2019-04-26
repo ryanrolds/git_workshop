@@ -16,7 +16,7 @@ All of the commands required to perform these steps are in the slides.
 
 1. Fork this repository in GitHub
 2. Clone your fork
-3. Perform the setup instructions above
+3. Perform the setup instructions above and use the slides as a reference
 4. Create a branch
 5. Add your name to end of this file
 6. Commit and push your change

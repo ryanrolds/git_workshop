@@ -1,6 +1,6 @@
 version: '3'
 services:
-  workshop:
+  git_workshop:
     build: .
     ports:
       - "8080:8080"

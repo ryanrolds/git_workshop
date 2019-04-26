@@ -9,6 +9,6 @@ func main() {
 	fs := http.FileServer(http.Dir("public"))
 	http.Handle("/", fs)
 
-	log.Printf("Listening on 8080")
+	log.Printf("View slides at http://localhost:8080/")
 	http.ListenAndServe(":8080", nil)
 }
