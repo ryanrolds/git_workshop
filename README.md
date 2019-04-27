@@ -29,5 +29,5 @@ All of the commands required to perform these steps are in the slides.
 ## Contributors
 
 * Ryan Olds
+* Cat w
 * John Heasly
-
