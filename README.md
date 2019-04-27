@@ -30,3 +30,5 @@ All of the commands required to perform these steps are in the slides.
 
 * Ryan Olds
 * Noah Brenner
+* Cat w
+* John Heasly
