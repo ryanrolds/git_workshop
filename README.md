@@ -29,6 +29,7 @@ All of the commands required to perform these steps are in the slides.
 ## Contributors
 
 * Ryan Olds
+* Kirk Hutchison
 * Noah Brenner
 * Cat w
 * John Heasly
